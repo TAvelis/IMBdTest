@@ -14,14 +14,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
-        android:hint="Enter email address"/>
+        android:hint="Enter film title"/>
 
     <Button
         android:id="@+id/queryButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end"
-        style="@style/Base.Widget.AppCompat.Button.Borderless"
         android:text="Search"/>
 
     <RelativeLayout
